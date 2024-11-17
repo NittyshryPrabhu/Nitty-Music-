@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&ApplyFunction; Nitty-Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* Reset */
+    /* Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    
+       
+    }
+    
+    /* Header styling */
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        background-color: #0073e6;
+        color: white;
+    }
+    
+    header .logo h1 {
+        font-size: 1.8em;
+    }
+    
+    header .nav-links a {
+        margin: 0 15px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    header .nav-links a:hover {
+        color: #d0eaff;
+    }
+    
+    /* Hero section styling */
+    .hero {
+        text-align: center;
+        padding: 20px;
+        background: #e6f2ff;
+        width: 100%;
+        max-width: 900px;
+        margin: 20px auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .hero h2 {
+        font-size: 2em;
+        color: #0073e6;
+        margin-bottom: 10px;
+    }
+    
+    .video-container {
+        display: flex;
+        justify-content: center;
+        margin: 15px 0;
+    }
+    
+    .video-container iframe {
+        width: 100%;
+        max-width: 560px;
+        height: 315px;
+        border-radius: 8px;
+    }
+    
+    /* Video grid section styling */
+    .video-grid {
+        width: 100%;
+        max-width: 92%;
+        margin: 20px auto;
+     margin-right: 10%;
+    
+        
+    }
+    
+    .video-grid h2 {
+        font-size: 2em;
+        color: #0073e6;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .videos {
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+       
+    }
+    
+    .video-item {
+        width: 100%;
+        max-width: 200px;
+        text-align: center;
+       
+    }
+    .video-item iframe{
+        border-radius: 8px;
+    }
+    
+    .video-item p {
+        margin-top: 10px;
+        font-size: 1em;
+    }
+    
+    /* Footer styling */
+    footer {
+        padding: 10px;
+        background-color: #0073e6;
+        color: white;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    /* Media Query for Mobile Devices */
+    @media screen and (max-width: 768px) {
+        .container {
+            flex-direction: column; /* Stack elements vertically */
+            padding: 10px;
+        }
+    
+        .block {
+            margin-bottom: 10px; /* Add space between stacked elements */
+        }
+    
+        h1 {
+            font-size: 1.5rem; /* Adjust font size for smaller screens */
+        }
+    
+        p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+    
+        .video-grid {
+        width: 100%;
+        max-width: 92%;
+        margin: 20px auto;
+    margin-left: -8.3%;
+        
+    }
+    }
+    
+    
+    
+</style>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Nitty-Music</h1>
+        </div>
+      
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Bhakti Song</h2>
+        
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VgYASanzCb8?si=cKBeeIa-IGpLNv9a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <p>Enjoy our featured video and explore more below!</p>
+    </section>
+
+    <!-- Video Grid Section -->
+    <section class="video-grid">
+        <h2>More Videos &DownArrow;</h2>
+        <div class="videos">
+            <div class="video-item">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/_CWcBWSKItk?si=rgXJIZ-5FLiVrqOV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+                <p>Radha Ramanam Hare Hare</p>
+            </div>
+            <div class="video-item">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/LLAvgTeXXy8?si=u7uqAb6UXWtkfbxv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Mai Bairagan</p>
+            </div>
+            <div class="video-item">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/gN7EAYTjHoU?si=a0WuIRb5dD6e1ZQz&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Mere Banke Bihari</p>
+            </div>
+            <div class="video-item">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/3o95qn8BjdQ?si=mlqs-2Jhypa78_o7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Mero Mann Vrindavan Mein Atko</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Video Grid Section -->
+    <section class="video-grid">
+        
+        <div class="videos">
+            <div class="video-item">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/OGUFhVxwsQ8?si=awIcn9XhEk-0DJTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+                <p>ये चमक ये दमक सब कुछ सरकार तुम्हीं से है</p>
+            </div>
+            <div class="video-item">
+                <iframe width="300" height="250"  src="https://www.youtube.com/embed/U-83EAjKkKQ?si=9hUmu2-n8nQynhQi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>सारे जहाँ के मालिक तेरा ही आसरा है </p>
+            </div>
+            <div class="video-item">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/llmemPwSqMg?si=5rR63WpRJCq0f2Rf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>रचा है सृष्टि को जिस प्रभु ने</p>
+            </div>
+            <div class="video-item">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/WPcUU-FCiGE?si=nMoE0xkPEOgxvFhm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>अगर नाथ देखोगे अवगुण हमारे</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div id="video-container"></div>
+
+
+      <!-- 2  Hero Section -->
+      <section class="hero">
+        <h2>BollyWood Music</h2>
+        <p style="color: red;">Runnig Song</p>
+        
+        <div class="video-container">
+            <iframe width="300" height="250" src="https://www.youtube.com/embed/puKD3nkB1h4?si=qCVbKfOPErl7ULMb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+        <p>Enjoy our featured video and explore more below!</p>
+    </section>
+
+    <!-- Video Grid Section -->
+    <section class="video-grid">
+        <h2>More Videos &DownArrow;</h2>
+        <div class="videos">
+            <div class="video-item">
+                <iframe width="300" height="250"  src="https://www.youtube.com/embed/DmsOinqrPvQ?si=FrS_5eSEwrOLcP2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+                <p>Badal Pe Paon Hain </p>
+            </div>
+            <div class="video-item">
+                <iframe width="300" height="250"  src="https://www.youtube.com/embed/858lvkopFOw?si=J53iAogO4pgBQjJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Teri Baari Hai </p>
+            </div>
+            <div class="video-item">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/uTDMVdzIhqQ?si=DG4TA1flCUss6uG1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+              <p>Jagga Jiteya </p>
+            </div>
+            <div class="video-item">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/g62J-8nV5FI?si=USqnGfoEIKqsjzr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Challa (Main Lad Jaana)</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Video Grid Section -->
+    <section class="video-grid">
+        
+        <div class="videos">
+            <div class="video-item">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/x5fYTPvrz4g?si=pmgPk7IX72djK_uN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+                <p>Manzar Hai Yeh Naya </p>
+            </div>
+            <div class="video-item">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/diT_XLLJiF8?si=dnz9Kwto-2_FvLPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Lehra Do</p>
+            </div>
+            <div class="video-item">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/HnoPHqrdXQ8?si=DGqBbkRmSzWQyVUq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>I'M ALONE</p>
+            </div>
+            <div class="video-item">
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/QEu-hjRuaQ0?si=SQoVXoXfZed3eF1N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Energy Girl</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2024 Nitty-Music. All rights reserved.</p>
+        </footer>
+    
+</body>
+</html>
